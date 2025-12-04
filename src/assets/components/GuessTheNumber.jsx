@@ -66,21 +66,19 @@ const GuessTheNumber = () => {
                            <h1> {run} - {wicket} </h1>
                             </div>
                  </div>
-                    <div className='row my-5 d-flex justify-content-start align-items-start gap-3'>
-                        <button className='btn btn-primary col-3 p-3' onClick={() => anyClick(() => setRun(run + 0))}>0 Run</button>
-                        <button className='btn btn-primary col-3 p-3' onClick={() => anyClick(() => setRun(run + 1))}>1 Run</button>
-                        <button className='btn btn-primary col-3 p-3' onClick={() => anyClick(() => setRun(run + 2))}>2 Runs</button>
-                        <button className='btn btn-primary col-3 p-3' onClick={() => anyClick(() => setRun(run + 3))}>3 Runs</button>
-                        <button className='btn btn-warning col-3 p-3' onClick={() => anyClick(() => setRun(run + 4))}>4 Runs</button>
-                        <button className='btn btn-success col-3 p-3' onClick={() => anyClick(() => setRun(run + 6))}>6 Runs</button>
-
-                       
+                    <div className='row my-5 d-flex justify-content-center  align-items-start gap-3 '>
+                        <button className='btn btn-primary col-3 p-3' onClick={() => anyClick(() => setRun(run + 0))}>0 </button>
+                        <button className='btn btn-primary col-3 p-3' onClick={() => anyClick(() => setRun(run + 1))}>1</button>
+                        <button className='btn btn-primary col-3 p-3' onClick={() => anyClick(() => setRun(run + 2))}>2</button>
+                        <button className='btn btn-primary col-3 p-3' onClick={() => anyClick(() => setRun(run + 3))}>3</button>
+                        <button className='btn btn-warning col-3 p-3' onClick={() => anyClick(() => setRun(run + 4))}>4</button>
+                        <button className='btn btn-success col-3 p-3' onClick={() => anyClick(() => setRun(run + 6))}>6</button>
                            
-                         <div className='row my-3 gap-3 align-items-end justify-content-start'>
-                             <button className='btn btn-danger col-1 p-3' onClick={() => anyClick(() => setWicket(wicket + 1))}>Wicket</button>
-                            <button className='btn btn-secondary col-1 p-3' onClick={undoScore}>Undo</button>
-                            <button className='btn btn-dark col-1 p-3' onClick={resetScore}>Reset</button>
-                        </div>
+                       
+                             <button className='btn btn-danger  p-3 col-3' onClick={() => anyClick(() => setWicket(wicket + 1))}>Wicket</button>
+                            <button className='btn btn-secondary  p-3 col-3' onClick={undoScore}>Undo</button>
+                            <button className='btn btn-dark  p-3 col-3' onClick={resetScore}>Reset</button>
+               
                     </div>
                 </div>
            
