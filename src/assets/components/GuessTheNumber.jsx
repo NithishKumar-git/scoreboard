@@ -4,7 +4,7 @@ import { useState } from 'react'
 const GuessTheNumber = () => {
     const [run, setRun] = useState(0)
     const [wicket, setWicket] = useState(0)
-    const [balls, setBalls] = useState(1)
+    const [balls, setBalls] = useState(0)
     const [overs, setOvers] = useState(0)
     const [history, setHistory] = useState([]);
 
