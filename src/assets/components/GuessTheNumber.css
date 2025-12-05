@@ -48,7 +48,18 @@ h3{
 }
 
 @media (max-width: 1200px) {
+    .scorecard-1{
+        display: flex;
+        flex-direction: column;
+    }
     .scorecardright> h1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
         font-size: 50px;
+    }
+
+    .scorecardleft>h1{
+        width: 100%;
     }
 }

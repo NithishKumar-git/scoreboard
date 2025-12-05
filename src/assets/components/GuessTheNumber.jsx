@@ -75,9 +75,9 @@ const GuessTheNumber = () => {
                         <button className='btn btn-success col-3 p-3' onClick={() => anyClick(() => setRun(run + 6))}>6</button>
                            
                        
-                             <button className='btn btn-danger  p-3 col-3' onClick={() => anyClick(() => setWicket(wicket + 1))}>Wicket</button>
-                            <button className='btn btn-secondary  p-3 col-3' onClick={undoScore}>Undo</button>
-                            <button className='btn btn-dark  p-3 col-3' onClick={resetScore}>Reset</button>
+                             <button className='btn btn-danger  p-2 col-3' onClick={() => anyClick(() => setWicket(wicket + 1))}>Wicket</button>
+                            <button className='btn btn-secondary  p-2 col-3 col-lg-3' onClick={undoScore}>Undo</button>
+                            <button className='btn btn-dark  p-2 col-3 col-lg-3' onClick={resetScore}>Reset</button>
                
                     </div>
                 </div>
